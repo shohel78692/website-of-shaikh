@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main Home</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Suranna&display=swap');
+		*{
+			padding: 0;
+			margin: 0;
+		}
+		#one{
+			margin-top: 30px;
+		}
+		#two{
+			margin-top: 60px;
+		}
+		#three{
+			margin-top: 80px;
+		}
+		.background{
+			background-color: #e6e6e6;
+			height: 100vh;
+			width: 100%;
+		}
+		/*.top{
+			display: flex;
+			justify-content: center;
+			flex-direction: row;
+		}
+		#left{
+			font-size: 25px;
+			padding: 26px;
+		}
+		#mid h1{
+			text-align: center;
+			font-size: 25px;
+			font-weight: bold;
+			font-family: 'Monsieur La Doulaise', cursive;
+			padding: 20px;
+		}
+		#right{
+			float: right;
+			font-size: 25px;
+			padding: 26px;
+		}*/
+		.w3-bar-item{
+			background-color: #e6e6e6;
+			font-family: 'Dancing Script', cursive;
+			font-weight: bold;
+			font-size: 22px;
+		}
+		.pic{
+           display: flex;
+           justify-content: center;
+		}
+		.pic img{
+			cursor: pointer;
+			max-width: 86px;
+			height: 385px;
+			margin-left: 20px; 
+			background-size: cover;
+			object-fit: none;
+			 filter: grayscale(1);
+			 transition: 1s;
+			 opacity: 0.3;
+		}
+		.pic img:hover{
+			filter: grayscale(0);
+			max-width: 190px;
+			background-position: center;
+			background-size: cover;
+			opacity: 1;
+		}
+		.pic ul{
+	padding: 15px 0;
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.pic ul li{
+	padding: 5px;
+	display: inline-block;
+}
+.pic:hover ul{
+	opacity: 1;
+}
+.pic ul, .img-box ul li{
+	transition: 0.5s;
+}
+.end h2{
+	font-family: 'Kaushan Script', cursive;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 48px;
+}
+.end p{
+	font-size: 16px;
+	font-weight: lighter;
+	font-family: 'Suranna', serif;
+	text-align: center;
+	letter-spacing: 1px;
+}
+.end blockquote{
+	float: right;
+	border: 1px solid #000;
+	padding: 8px 20px 8px 20px;
+	margin-right: 50px;
+	transition: 0.6s;
+	border-radius: 8px;
+ }
+ .end blockquote:hover{
+ 	background-color: #f2f2f2;
+ }
+ .end a{
+    text-decoration: none;
+    font-family: 'Suranna', serif;
+    font-size: 18px;
+ }
+
+		
+
+
+
+
+	</style>
+</head>
+<body>
+
+
+
+	<div class="background">
+		<!-- <div class="top">
+			<div id="left">
+			<i class="fa fa-bell"></i>
+		</div>
+		<div id="mid">
+		   <h1>Shaikh Mohammad Ali</h1>
+		</div>
+		   <div id="right">
+		   <i class="fa fa-bars"></i>
+		</div>
+		</div> -->
+		<div class="w3-bar w3-border w3-light-grey w3-center">
+  <a href="#" style="width:10%" class="w3-bar-item w3-button w3-mobile"><i class="fa fa-bell"></i></a>
+  <a href="#" style="width:80%" class="w3-bar-item w3-button w3-mobile">Shaikh Mohammad Ali</a>
+  <a href="#" style="width:10%" class="w3-bar-item w3-button w3-mobile"><i class="fa fa-bars"></i></a>
+</div>
+
+	<div class="pic">
+	<img src="1.jpg" id="one">
+	<img src="2.jpg" id="two">
+	<img src="3.jpeg" id="three">
+	<img src="4.jpg" id="two">
+	<img src="5.jpg" id="one">
+	<img src="6.jpg" id="three">
+	<img src="7.jpg" id="two">
+	<img src="9.2.jpg" id="one">
+	<img src="9.jpg" id="three">
+	<img src="10.jpg" id="one">
+	<ul>
+            <a href="#"><li><i class="fa fa-facebook"></i></li></a>
+            <a href="#"><li><i class="fa fa-twitter"></i></li></a>
+            <a href="#"><li><i class="fa fa-instagram"></i></li></a>
+          </ul>
+</div>
+<div class="end">
+	<h2>Featured Work</h2>
+	<p>Explore some of the <q>Shaikh's</q> featured work</p>
+<blockquote><a href="file:///E:/Shaikh%20mohammad%20ali%20(website)/index4.html">next <i class="fa fa-arrow-right"></i></a></blockquote>
+</div>
+
+
+
+	</div>
+
+
+
+</body>
+</html>
